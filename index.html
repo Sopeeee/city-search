@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body class="white-preview body">
+
+    <header class="header">
+        <div class="head-left">
+            <div class="head_box">
+                <input type="checkbox" id="check">
+                <div class="btn_one">
+                    <label for="check">
+                        <span class="i">&#9778;</span>
+                    </label>
+                </div>
+                
+                <div class="sidebar__menu">
+                    <div class="logo">
+                        <a href="#">Weather.ru</a>
+                    </div>
+                    <div class="btn_two">
+                        <label for="check">
+                            <span class="i menu">&#10005;</span>
+                        </label>
+                    </div>
+                    <nav class="menu_ul">
+                        <ul class="ul">
+                            <li><a href="../1 page/index.html">Главная страница</a></li>
+                            <li><a href="../2 page/index.html">Поиск городов</a></li>
+                            <li><span style="font-size: 21px; color: #fff;">Тема</span>
+                                <div class="btn-container">
+                                <span class="sun">&#9788;</span>
+                                  <label class="switch btn-color-mode-switch">
+                                        <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                        <label style="font-size: 13px;
+                                        color: #949494;
+                                        font-weight: 500;" for="color_mode" data-on="Темная" data-off="Светлая" class="btn-color-mode-switch-inner"></label>
+                                    </label><span class="moon">&#9790;</span></div>
+                                <p class="by"></p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+
+<main class="main">
+   
+</main>
+
+    <div class="app" id="app">
+        <div class="app__container">
+            <!-- верхняя часть -->
+            <div class="app__container-top">
+                <form class="location-form" id="location-form">
+                    <input type="text" class="location-form__input" id="location-form-input" placeholder="Город..." required>
+                    <button class="location-form__btn" id="location-form-btn">
+                        <svg class="location-form__icon" width="20px" height="20px" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="19.5138" y="18.5495" width="8" height="2" transform="rotate(45 19.5138 18.5495)" fill="#333333" />
+                            <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            
+            
+            <!-- нижняя часть -->
+            <div class="app__container-bottom" id="cards-box">
+                
+            </div>
+        </div>
+    </div> 
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="scrpit.js"></script>
+</body>
+</html>
